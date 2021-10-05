@@ -7,3 +7,5 @@
 *.txt
 *.json
 *.lock
+*.yml
+*.yaml
