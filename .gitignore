@@ -1,0 +1,9 @@
+**/EjemplosUD3/vendor/*
+**/EjemplosUD3/vendor/*
+
+*.xsd
+*.xml
+*.xslt
+*.txt
+*.json
+*.lock
