@@ -31,10 +31,10 @@
 <body>
     
     <?php if(isset($_GET['emails'])){
-                foreach ($_SESSION['emails'] as $e) {
-                    echo "<p>".$e."</p>";
-                }
-            } 
+            foreach ($_SESSION['emails'] as $e) {
+                echo "<p>".$e."</p>";
+            }
+        } 
     ?>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 		Ingresa Email
